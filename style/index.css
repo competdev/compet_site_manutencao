@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+body {
+  background-color: #f5f5f5;
+}
+
+.centerContent {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.imgManutencao {
+  width: 500px;
+}
+
+.networkInfo {
+  margin-top: -20px;
+  font-size: 35px;
+  font-family: 'Cabin', sans-serif;
+  color: #004266;
+}
+
+.socialNetwork {
+  display: inline-flex;
+}
+
+.logoNetwork {
+  margin: 10px;
+  margin-top: 30px;
+  width: 70px;
+}
+
+.socialNetwork img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
