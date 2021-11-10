@@ -4,16 +4,20 @@ body {
 }
 
 .centerContent {
-  margin-top: 5%;
+  margin-top: 15vh;
   text-align: center;
+  align-items: center;
 }
 
 .imgManutencao {
-  width: 500px;
+  width: 350px;
 }
 
 .networkInfo {
-  margin-top: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
+  margin-top: 20px;
   font-size: 35px;
   font-family: 'Cabin', sans-serif;
   color: #004266;
@@ -35,4 +39,36 @@ body {
   -o-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .imgManutencao {
+    width: 300px;
+  }
+  .networkInfo {
+    max-width: 400px;
+    font-size: 27px;
+    color: #004266;
+  }
+  .logoNetwork {
+    margin: 10px;
+    margin-top: 30px;
+    width: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .imgManutencao {
+    width: 200px;
+  }
+  .networkInfo {
+    max-width: 300px;
+    font-size: 17px;
+    color: #004266;
+  }
+  .logoNetwork {
+    margin: 10px;
+    margin-top: 30px;
+    width: 30px;
+  }
 }
